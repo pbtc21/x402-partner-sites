@@ -511,8 +511,8 @@ function renderPartnerPage(partnerId: string): string {
         <div class="stat-label">Integration Cost</div>
       </div>
       <div class="stat">
-        <div class="stat-value">10%</div>
-        <div class="stat-label">Default Rev Share</div>
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Your Revenue</div>
       </div>
     </div>
 
