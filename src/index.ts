@@ -287,6 +287,216 @@ const PARTNERS: Record<string, {
       'Developer bounty system',
       'Cross-chain showcase events'
     ]
+  },
+  phala: {
+    name: 'Phala Network',
+    tagline: 'Confidential AI Compute',
+    twitter: 'PhalaNetwork',
+    tier: 'infra',
+    color: '#c6ff00',
+    icon: '🛡️',
+    description: 'TEE-secured compute with micropayment billing',
+    valueProps: [
+      'Confidential compute per request',
+      'Privacy-preserving AI inference',
+      'Pay-per-use TEE execution',
+      'No data exposure risk'
+    ],
+    ctaText: 'Monetize Confidential Compute',
+    integrationIdeas: [
+      'Private AI inference API',
+      'Secure data processing marketplace',
+      'Confidential smart contract execution'
+    ]
+  },
+  lit: {
+    name: 'Lit Protocol',
+    tagline: 'Decentralized Key Management',
+    twitter: 'LitProtocol',
+    tier: 'security',
+    color: '#ff6b35',
+    icon: '🔑',
+    description: 'Programmable signing with micropayment triggers',
+    valueProps: [
+      'Pay-per-signature operations',
+      'Decentralized key custody',
+      'Conditional access control',
+      'Revenue from every sign request'
+    ],
+    ctaText: 'Earn from Key Operations',
+    integrationIdeas: [
+      'Signature-as-a-service API',
+      'Conditional encryption marketplace',
+      'Multi-party signing fees'
+    ]
+  },
+  chainsafe: {
+    name: 'ChainSafe',
+    tagline: 'Web3 Infrastructure',
+    twitter: 'ChainSafeth',
+    tier: 'infra',
+    color: '#2563eb',
+    icon: '⛓️',
+    description: 'Multi-chain tooling with usage-based pricing',
+    valueProps: [
+      'RPC calls with micropayments',
+      'Cross-chain data queries',
+      'Storage API monetization',
+      'Developer tool revenue'
+    ],
+    ctaText: 'Monetize Your Infrastructure',
+    integrationIdeas: [
+      'Pay-per-RPC endpoint',
+      'Cross-chain bridge fees',
+      'Storage pinning marketplace'
+    ]
+  },
+  audius: {
+    name: 'Audius',
+    tagline: 'Decentralized Music Streaming',
+    twitter: 'audaborproject',
+    tier: 'infra',
+    color: '#7e22ce',
+    icon: '🎵',
+    description: 'Stream-to-earn with instant micropayments',
+    valueProps: [
+      'Pay-per-stream to artists',
+      'No middleman fees',
+      'Instant creator payments',
+      'Fan-to-artist direct support'
+    ],
+    ctaText: 'Enable Stream Payments',
+    integrationIdeas: [
+      'Per-stream artist royalties',
+      'Premium content unlocks',
+      'Fan engagement rewards'
+    ]
+  },
+  livepeer: {
+    name: 'Livepeer',
+    tagline: 'Decentralized Video Infrastructure',
+    twitter: 'Livepeer',
+    tier: 'infra',
+    color: '#00eb88',
+    icon: '📹',
+    description: 'Video transcoding with pay-per-minute billing',
+    valueProps: [
+      'Transcode fees per minute',
+      'Streaming bandwidth payments',
+      'No upfront infrastructure costs',
+      'Scale with viewership'
+    ],
+    ctaText: 'Monetize Video Processing',
+    integrationIdeas: [
+      'Pay-per-transcode API',
+      'Live streaming micropayments',
+      'CDN bandwidth billing'
+    ]
+  },
+  akash: {
+    name: 'Akash Network',
+    tagline: 'Decentralized Cloud Compute',
+    twitter: 'akabornetwork',
+    tier: 'infra',
+    color: '#ff4136',
+    icon: '☁️',
+    description: 'Serverless compute with crypto-native billing',
+    valueProps: [
+      'Pay-per-compute cycle',
+      'No cloud vendor lock-in',
+      'Instant resource scaling',
+      'Provider revenue sharing'
+    ],
+    ctaText: 'Earn from Compute',
+    integrationIdeas: [
+      'Serverless function marketplace',
+      'GPU compute auctions',
+      'Container hosting fees'
+    ]
+  },
+  render: {
+    name: 'Render Network',
+    tagline: 'Distributed GPU Rendering',
+    twitter: 'rendernetwork',
+    tier: 'infra',
+    color: '#ff9500',
+    icon: '🎨',
+    description: 'GPU rendering with per-frame micropayments',
+    valueProps: [
+      'Pay-per-frame rendering',
+      'Distributed GPU power',
+      'No hardware investment',
+      'Artist-friendly pricing'
+    ],
+    ctaText: 'Monetize GPU Power',
+    integrationIdeas: [
+      'Per-frame render billing',
+      'Real-time 3D streaming',
+      'AI image generation fees'
+    ]
+  },
+  fleek: {
+    name: 'Fleek',
+    tagline: 'Web3 Hosting & Storage',
+    twitter: 'fleaborxyz',
+    tier: 'infra',
+    color: '#ffd000',
+    icon: '🚀',
+    description: 'Decentralized hosting with usage-based fees',
+    valueProps: [
+      'Bandwidth-based pricing',
+      'IPFS pinning marketplace',
+      'Edge function billing',
+      'No monthly minimums'
+    ],
+    ctaText: 'Host and Earn',
+    integrationIdeas: [
+      'Pay-per-request CDN',
+      'Storage pinning fees',
+      'Edge compute marketplace'
+    ]
+  },
+  nodepay: {
+    name: 'Nodepay',
+    tagline: 'DePIN Bandwidth Sharing',
+    twitter: 'nodepay_ai',
+    tier: 'infra',
+    color: '#00d4ff',
+    icon: '📡',
+    description: 'Share bandwidth, earn micropayments',
+    valueProps: [
+      'Passive income from bandwidth',
+      'No hardware investment',
+      'Instant payouts',
+      'Community-powered network'
+    ],
+    ctaText: 'Turn Bandwidth into Revenue',
+    integrationIdeas: [
+      'Bandwidth sharing rewards',
+      'Proxy service marketplace',
+      'Data relay payments'
+    ]
+  },
+  saturn: {
+    name: 'Saturn Network',
+    tagline: 'Decentralized CDN',
+    twitter: 'SaturnNetwork',
+    tier: 'infra',
+    color: '#6366f1',
+    icon: '🪐',
+    description: 'Content delivery with node operator rewards',
+    valueProps: [
+      'CDN nodes earn per request',
+      'Geographic distribution rewards',
+      'No centralized bottleneck',
+      'Scale revenue with traffic'
+    ],
+    ctaText: 'Run a CDN Node',
+    integrationIdeas: [
+      'Per-request CDN fees',
+      'Edge caching rewards',
+      'Content acceleration marketplace'
+    ]
   }
 };
 
